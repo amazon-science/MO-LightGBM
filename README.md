@@ -1,4 +1,4 @@
-## Multi-Label Learning to Rank through Multi-objective Optimization with LightGBM
+# Multi-Label Learning to Rank through Multi-objective Optimization with LightGBM
 
 TODO: Fill this README out!
 
@@ -6,6 +6,8 @@ Be sure to:
 
 * Change the title in this README
 * Edit your repository description on GitHub
+
+## Introduction
 
 ## Installation
 
