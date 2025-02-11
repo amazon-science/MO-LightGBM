@@ -9,8 +9,17 @@ Be sure to:
 
 ## Getting Started
 
+## How to Use
+
 ## Citation 
+If you use this work, please consider citing
 ```
+@inproceedings{mahapatra2023multi,
+  title={Multi-label learning to rank through multi-objective optimization},
+  author={Mahapatra, Debabrata and Dong, Chaosheng and Chen, Yetian and Momma, Michinari},
+  booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2023}
+}
 
 ```
 
