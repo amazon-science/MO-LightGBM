@@ -8,7 +8,7 @@ Be sure to:
 * Edit your repository description on GitHub
 
 ## Introduction
-
+MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for multi-label learning to rank tasks. It is based on [LightGBM](https://github.com/microsoft/LightGBM).
 ## Installation
 
 ## How to Use
