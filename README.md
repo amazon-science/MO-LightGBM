@@ -11,6 +11,36 @@ Be sure to:
 MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for multi-label learning to rank tasks. It is based on [LightGBM](https://github.com/microsoft/LightGBM).
 ## Installation
 
+1. Install blas and lapack, 
+    1. In mac: brew install openblas, brew install lapack
+    2. In ubuntu: sudo apt install libblas-dev liblapack-dev
+
+2. from the scs root, build the package
+    1. # install cmake if needed
+        cd LightGBM/external_libs/scs/
+        rm -r build
+        mkdir build
+        cd build
+        cmake ..
+        make -j$(nproc)
+        cd ../../../../
+3. from the ecos root, build the package
+    1. cd LightGBM/external_libs/ecos.2.0.8/
+        rm -r build
+        mkdir build
+        cd build
+        cmake ..
+        make -j$(nproc)
+        cd ../../../../
+4. Now build LightGBM
+    1. cd LightGBM
+        rm -r build
+        mkdir build
+        cd build
+        cmake ..
+        make -j$(nproc)
+        cd ../../
+
 ## How to Use
 
 ### Sample config
