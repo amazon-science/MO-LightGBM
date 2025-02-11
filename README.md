@@ -19,7 +19,8 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 ```
 
 ## Citation 
-If you use this work, please consider citing
+If you use this work, please consider citing the papers:
+https://dl.acm.org/doi/abs/10.1145/3580305.3599870
 ```
 @article{chaoshengmo-lightgbm2025,
   title={MO-LightGBM: A Package for Multi-Label Learning to Rank in LightGBM},
