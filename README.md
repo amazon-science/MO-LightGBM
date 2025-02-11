@@ -13,6 +13,11 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 
 ## How to Use
 
+### Sample config
+```
+
+```
+
 ## Citation 
 If you use this work, please consider citing
 ```
