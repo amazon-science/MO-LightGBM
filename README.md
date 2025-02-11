@@ -23,26 +23,26 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 
 2. from the scs root, build the package, install cmake if needed
    
-        ```
-        cd LightGBM/external_libs/scs/
-        rm -r build
-        mkdir build
-        cd build
-        cmake ..
-        make -j$(nproc)
-        cd ../../../../
-        ```
+    ```
+    cd LightGBM/external_libs/scs/
+    rm -r build
+    mkdir build
+    cd build
+    cmake ..
+    make -j$(nproc)
+    cd ../../../../
+    ```
 4. from the ecos root, build the package
    
-        ```
-        cd LightGBM/external_libs/ecos.2.0.8/
-        rm -r build
-        mkdir build
-        cd build
-        cmake ..
-        make -j$(nproc)
-        cd ../../../../
-        ```
+    ```
+    cd LightGBM/external_libs/ecos.2.0.8/
+    rm -r build
+    mkdir build
+    cd build
+    cmake ..
+    make -j$(nproc)
+    cd ../../../../
+    ```
 5. Now build LightGBM
    
        ```
