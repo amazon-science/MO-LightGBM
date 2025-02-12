@@ -45,15 +45,15 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
     ```
 5. Now build LightGBM
    
-       ```
-       cd LightGBM
-        rm -r build
-        mkdir build
-        cd build
-        cmake ..
-        make -j$(nproc)
-        cd ../../
-       ```
+   ```
+   cd LightGBM
+    rm -r build
+    mkdir build
+    cd build
+    cmake ..
+    make -j$(nproc)
+    cd ../../
+   ```
 ## How to Use
 
 ### Sample config
