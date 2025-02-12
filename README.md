@@ -51,7 +51,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
    make -j$(nproc)
    cd ../../
    ```
-## How to Use
+## Usage
 ### Assumptions about Dataset
 1. The dataset should be in csv or tsv format, not in the libsvm format. 
 2. The csv/tsv file should have header that names each column
