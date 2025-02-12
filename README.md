@@ -59,6 +59,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
    cd ../../
    ```
 ## How to Use
+### General process
 1. Prepare the `<dataset_name>_config.yml`
 2. Generate configure files for baseline experiment
 
@@ -104,7 +105,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 9. Run plotting script for evolution (under construction using plot_biobjective_results.py)
 
    `python plot_biobjectives_evolution.py <dataset_name>_config.yml` 
-### Sample config
+### Sample 
 ```
 #dataset=mslr
 #dataset=yahoo
