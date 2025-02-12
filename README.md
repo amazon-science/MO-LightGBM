@@ -59,10 +59,76 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
    cd ../../
    ```
 ## How to Use
+1. Prepare the `<dataset_name>_config.yml`
+2. Generate configure files for baseline experiment
 
+   `python baselines.py <dataset_name>_config.yml`
+3. Go the `baseline_results_<dataset_name>` folder and run the experiments
+
+   ```
+   cd baseline_results_<dataset_name>
+   sh run_experiment.sh
+   ```
+4. Generate configure files for biobjective experiments for preference based methods
+
+   `python biobjectives.py <dataset_name>_config.yml`
+5. Go to the `biobjective_results_<dataset_name>` folder, and, either run all the experiments or run for individual combinator
+
+   ```
+   cd biobjective_results_<dataset_name>
+   sh run_experiment.sh   # will run for the all combinators
+   sh epo_search_run_experiment.sh     # will run only for epo_search  
+   ```
+6. Generate configure files for biobjective experiments for constraints based methods
+
+   `python biobjectives_ec.py <dataset_name>_config.yml`
+7. Go to the `biobjective_results_<dataset_name>` folder, and, either run all the experiments or run for individual combinator
+
+   ```
+   cd biobjective_results_<dataset_name>
+   sh ec_run_experiment.sh   # will run for the all combinators
+   sh epo_search_run_experiment.sh     # will 
+8. Run plotting script
+   1. plot bound and ray in one figure
+       ```
+      python plot_biobjectives.py <dataset_name>_config.yml
+       ```
+   2. plot only ray
+       ```
+        python plot_biobjectives_results.py <dataset_name>_config.yml
+       ```
+   3. plot only bound
+       ```
+       python plot_biobjectives_ec.py <dataset_name>_config.yml
+       ```
+9. Run plotting script for evolution (under construction using plot_biobjective_results.py)
+
+   `python plot_biobjectives_evolution.py <dataset_name>_config.yml` 
 ### Sample config
 ```
+#dataset=mslr
+#dataset=yahoo
+dataset=istella
+root=./moro/
+folder=${root}/test_istella/
+cd ${folder}
+chmod 777 *
+python baselines.py ${dataset}_config.yml
+cd baseline_results_${dataset}
+sh run_experiment.sh
+cd ..
 
+python biobjectives.py ${dataset}_config.yml
+cd biobjective_results_${dataset}
+sh run_experiment.sh 
+cd ..
+
+python biobjectives_ec.py ${dataset}_config.yml
+cd biobjective_results_${dataset}
+sh ec_run_experiment.sh 
+cd ..
+
+python plot_biobjectives.py ${dataset}_config.yml
 ```
 
 ## Citation 
