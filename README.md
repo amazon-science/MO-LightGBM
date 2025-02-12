@@ -51,12 +51,12 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
    
    ```
    cd LightGBM
-    rm -r build
-    mkdir build
-    cd build
-    cmake ..
-    make -j$(nproc)
-    cd ../../
+   rm -r build
+   mkdir build
+   cd build
+   cmake ..
+   make -j$(nproc)
+   cd ../../
    ```
 ## How to Use
 
