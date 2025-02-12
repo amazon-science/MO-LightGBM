@@ -22,7 +22,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
        ```
     3. In Red Hat systems like CentOS and Fedora:
        ```
-       $sudo apt install libblas-dev liblapack-dev
+       $sudo yum install lapack-devel blas-devel
        ```
 
 2. from the scs root, build the package, install cmake if needed
