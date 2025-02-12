@@ -104,7 +104,9 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 
    `python plot_biobjectives_evolution.py <dataset_name>_config.yml`
 
-### Sample Config
+### General process for multi-objective experiments
+
+### Sample Config for bi-objective Experiment
 ```
 dataset:
   name: istella
