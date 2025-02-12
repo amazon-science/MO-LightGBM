@@ -110,10 +110,10 @@ dataset:
   name: istella
   train_file: "datasets/istella-letor/full/train.tsv"
   valid_file: "datasets/istella-letor/full/test.tsv"
-  query_column: "1"
-  main_label: "0"
-  all_labels: ['11', '194', '203', '214', '0']    # Change the labels legends in plotting field
-  bilabels_idx: [[0, 1], [0, -1], [2, 3], [2, -1]]
+  query_column: "1" # query group id column
+  main_label: "0" # main objective
+  all_labels: ['11', '194', '203', '214', '0']    # candidate labels for objectives
+  bilabels_idx: [[0, 1], [0, -1], [2, 3], [2, -1]] # combination of labels from all_labels
   ignore_columns: ['11', '194', '203', '214', '0']  # all_lables + some extra feature columns that needs to be ignored
 
 lightgbm_parameters:
@@ -124,7 +124,7 @@ lightgbm_parameters:
 
 lightgbm_path: "../LightGBM/lightgbm"
 sample_lightgbm_config: "sample_config.conf"
-num_tradeoffs: 5
+num_tradeoffs: 5 # number of preference verctors for objectives
 
 mg_combinators:
   preference_based:
@@ -153,7 +153,7 @@ plotting:
     loss: "Training Cost"
     ndcg: "Validation NDCG@5"
 
-  snapshots_at: [10, 20, 40, 80, 160, 240, 480, 600, 800, 1000]
+  snapshots_at: [10, 20, 40, 80, 160, 240, 480, 600, 800, 1000] # snapshots of intermidate results at speficif interation
 
   combinator_legends:
     linear_scalarization: "LS"
