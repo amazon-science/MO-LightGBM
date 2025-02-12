@@ -16,7 +16,11 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
        $brew install openblas
        $brew install lapack
        ```
-    2. In ubuntu:
+    2. In Debian-based systems like Ubuntu:
+       ```
+       $sudo apt install libblas-dev liblapack-dev
+       ```
+    3. In Red Hat systems like CentOS and Fedora:
        ```
        $sudo apt install libblas-dev liblapack-dev
        ```
