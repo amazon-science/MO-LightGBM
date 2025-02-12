@@ -57,7 +57,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 2. The csv/tsv file should have header that names each column
 
 
-### General process
+### General process for bi-objective experiments
 1. Prepare the `<dataset_name>_config.yml`
 2. Generate configure files for baseline experiment
 
