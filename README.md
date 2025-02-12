@@ -52,6 +52,11 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
    cd ../../
    ```
 ## How to Use
+### Assumptions about Dataset
+1. The dataset should be in csv or tsv format, not in the libsvm format. 
+2. The csv/tsv file should have header that names each column
+
+
 ### General process
 1. Prepare the `<dataset_name>_config.yml`
 2. Generate configure files for baseline experiment
