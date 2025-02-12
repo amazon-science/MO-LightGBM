@@ -105,7 +105,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
 9. Run plotting script for evolution (under construction using plot_biobjective_results.py)
 
    `python plot_biobjectives_evolution.py <dataset_name>_config.yml` 
-### Sample 
+### Sample Command
 ```
 #dataset=mslr
 #dataset=yahoo
@@ -130,6 +130,85 @@ sh ec_run_experiment.sh
 cd ..
 
 python plot_biobjectives.py ${dataset}_config.yml
+```
+
+### Sample Config
+```
+dataset:
+  name: istella
+  train_file: "datasets/istella-letor/full/train.tsv"
+  valid_file: "datasets/istella-letor/full/test.tsv"
+  query_column: "1"
+  main_label: "0"
+  all_labels: ['11', '194', '203', '214', '0']    # Change the labels legends in plotting field
+  bilabels_idx: [[0, 1], [0, -1], [2, 3], [2, -1]]
+  ignore_columns: ['11', '194', '203', '214', '0']  # all_lables + some extra feature columns that needs to be ignored
+
+lightgbm_parameters:
+  objective_type: lambdarank   # current supported options: lambdarank and ranknet
+  num_iterations: '1000'   # all numbers should be in quotes
+  num_thread: '47'
+  ndcg_eval_at: '5,30'
+
+lightgbm_path: "../LightGBM/lightgbm"
+sample_lightgbm_config: "sample_config.conf"
+num_tradeoffs: 5
+
+mg_combinators:
+  preference_based:
+    - linear_scalarization
+    - stochastic_label_aggregation
+    - chebychev_scalarization
+    - epo_search
+    - wc_mgda
+  constraint_based:
+    - e_constraint
+    - ec_mgda
+
+plotting:
+  label_legends:
+    "11": "Relevance 1"
+    "194": "Relevance 2"
+    "203": "Relevance 3"
+    "214": "Relevance 4"
+    "0": "Relevance 5"
+
+  to_track:
+    loss: "Training-loss"     # options: Validation-loss
+    ndcg: "Validation-ndcg@5" # options: Training-ndcg@k or Validation-ndcg@k, k can be any number in the ndcg_eval_at
+
+  tracker_titles:
+    loss: "Training Cost"
+    ndcg: "Validation NDCG@5"
+
+  snapshots_at: [10, 20, 40, 80, 160, 240, 480, 600, 800, 1000]
+
+  combinator_legends:
+    linear_scalarization: "LS"
+    stochastic_label_aggregation: "SLA"
+    chebychev_scalarization: "CS"
+    epo_search: "EPO-Search"
+    wc_mgda: "WC-MGDA"
+    e_constraint: '$\epsilon-$Constraint'
+    ec_mgda: "EC-MGDA"
+
+  combinator_markers:
+    linear_scalarization: "s"
+    stochastic_label_aggregation: "P"
+    chebychev_scalarization: "^"
+    epo_search: "*"
+    wc_mgda: "X"
+    e_constraint: '$\clubsuit$'
+    ec_mgda: '$\spadesuit$'
+
+  combinator_marker_sizes:
+    linear_scalarization: 18
+    stochastic_label_aggregation: 20
+    chebychev_scalarization: 25
+    epo_search: 40
+    wc_mgda: 20
+    e_constraint: 30
+    ec_mgda: 25
 ```
 
 ## Citation 
