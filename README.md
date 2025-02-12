@@ -104,33 +104,7 @@ MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework base
        ```
 9. Run plotting script for evolution (under construction using plot_biobjective_results.py)
 
-   `python plot_biobjectives_evolution.py <dataset_name>_config.yml` 
-### Sample Command
-```
-#dataset=mslr
-#dataset=yahoo
-dataset=istella
-root=./moro/
-folder=${root}/test_istella/
-cd ${folder}
-chmod 777 *
-python baselines.py ${dataset}_config.yml
-cd baseline_results_${dataset}
-sh run_experiment.sh
-cd ..
-
-python biobjectives.py ${dataset}_config.yml
-cd biobjective_results_${dataset}
-sh run_experiment.sh 
-cd ..
-
-python biobjectives_ec.py ${dataset}_config.yml
-cd biobjective_results_${dataset}
-sh ec_run_experiment.sh 
-cd ..
-
-python plot_biobjectives.py ${dataset}_config.yml
-```
+   `python plot_biobjectives_evolution.py <dataset_name>_config.yml`
 
 ### Sample Config
 ```
@@ -210,6 +184,35 @@ plotting:
     e_constraint: 30
     ec_mgda: 25
 ```
+
+### Sample Command
+```
+#dataset=mslr
+#dataset=yahoo
+dataset=istella
+root=./moro/
+folder=${root}/test_istella/
+cd ${folder}
+chmod 777 *
+python baselines.py ${dataset}_config.yml
+cd baseline_results_${dataset}
+sh run_experiment.sh
+cd ..
+
+python biobjectives.py ${dataset}_config.yml
+cd biobjective_results_${dataset}
+sh run_experiment.sh 
+cd ..
+
+python biobjectives_ec.py ${dataset}_config.yml
+cd biobjective_results_${dataset}
+sh ec_run_experiment.sh 
+cd ..
+
+python plot_biobjectives.py ${dataset}_config.yml
+```
+
+
 
 ## Citation 
 If you use this work, please consider citing the papers:
