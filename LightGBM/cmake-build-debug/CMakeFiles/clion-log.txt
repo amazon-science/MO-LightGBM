@@ -1,0 +1,6 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/michi/Documents/work/lightgbm-moo/moro/LightGBM
+-- Using _mm_prefetch
+-- Using _mm_malloc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/cmake-build-debug

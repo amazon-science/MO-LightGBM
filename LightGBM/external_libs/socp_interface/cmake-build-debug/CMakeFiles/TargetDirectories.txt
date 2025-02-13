@@ -1,0 +1,11 @@
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/CMakeFiles/parameter_test.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/CMakeFiles/portfolio_test.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/CMakeFiles/socp_test.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/CMakeFiles/socp_interface.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/CMakeFiles/rebuild_cache.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/CMakeFiles/edit_cache.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/CMakeFiles/eicos_run_tests.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/CMakeFiles/eicos_test_problem.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/CMakeFiles/eicos.dir

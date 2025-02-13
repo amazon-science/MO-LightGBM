@@ -1,0 +1,6 @@
+[submodule "solvers/ecos"]
+	path = solvers/ecos
+	url = https://github.com/embotech/ecos.git
+[submodule "solvers/EiCOS"]
+	path = solvers/EiCOS
+	url = https://github.com/EmbersArc/EiCOS.git

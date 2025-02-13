@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="socp_interface"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\solvers\;CMake Files\solvers\EiCOS\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\fmt\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parameter_test">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/parameter_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 parameter_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parameter_test/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/parameter_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 parameter_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="portfolio_test">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/portfolio_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 portfolio_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="portfolio_test/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/portfolio_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 portfolio_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socp_test">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/socp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 socp_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socp_test/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/socp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 socp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socp_interface">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/libsocp_interface.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 socp_interface"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socp_interface/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/libsocp_interface.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/ecos/external/SuiteSparse_config"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 socp_interface/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eicos_run_tests">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/eicos_run_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 eicos_run_tests"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eicos_run_tests/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/eicos_run_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 eicos_run_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eicos_test_problem">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/eicos_test_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 eicos_test_problem"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eicos_test_problem/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/eicos_test_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 eicos_test_problem/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eicos">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/libeicos.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 eicos"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eicos/fast">
+				<Option output="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/libeicos.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/include"/>
+					<Add directory="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 eicos/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/cmake-build-debug/solvers/EiCOS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/src/eicos.cpp">
+			<Option target="eicos"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/src/run.cpp">
+			<Option target="eicos_test_problem"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/test/ecostester.cpp">
+			<Option target="eicos_run_tests"/>
+			<Option target="eicos"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/src/ecosWrapper.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/src/eicosWrapper.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/wrappers/src/wrapperBase.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/constraint.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/expression.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/optimizationProblem.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/parameter.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/secondOrderConeProgram.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/tests/parameter_test.cpp">
+			<Option target="parameter_test"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/tests/portfolio_test.cpp">
+			<Option target="portfolio_test"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/tests/socp_test.cpp">
+			<Option target="socp_test"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/src/variable.cpp">
+			<Option target="socp_interface"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/solvers/EiCOS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\solvers\EiCOS\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/lib/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/lib/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/lib/cmake/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/socp_interface/../../../../../../../../../usr/local/lib/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,10 @@
+wheel
+numpy
+scipy
+scikit-learn!=0.22.0
+
+[dask]
+dask[array]>=2.0.0
+dask[dataframe]>=2.0.0
+dask[distributed]>=2.0.0
+pandas

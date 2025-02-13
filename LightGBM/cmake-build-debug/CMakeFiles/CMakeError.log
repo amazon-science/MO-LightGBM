@@ -1,0 +1,43 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang: error: no such file or directory: 'CMakeCCompilerId.c'
+clang: error: no input files
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb491/fast && make: *** No rule to make target `cmTC_bb491/fast'.  Stop.
+
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8f65/fast && make: Makefile: No such file or directory
+make: *** No rule to make target `Makefile'.  Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8ab1/fast && make: *** No rule to make target `cmTC_b8ab1/fast'.  Stop.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ccf0a/fast && make: Makefile: No such file or directory
+make: *** No rule to make target `Makefile'.  Stop.
+
+
+

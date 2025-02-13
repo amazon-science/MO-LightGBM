@@ -1,0 +1,7 @@
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/install.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michi/Documents/work/lightgbm-moo/moro/LightGBM/external_libs/ecos.2.0.8/cmake-build-debug/CMakeFiles/ecos.dir

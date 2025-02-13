@@ -1,0 +1,19 @@
+set(scs_VERSION @PACKAGE_VERSION@)
+
+@PACKAGE_INIT@
+
+@PACKAGE_DEPENDENCIES@
+
+if(NOT TARGET scs::scsdir)
+  include("${CMAKE_CURRENT_LIST_DIR}/scsTargets.cmake")
+endif()
+
+# Compatibility
+get_property(scs_scsdir_INCLUDE_DIR TARGET scs::scsdir PROPERTY INTERFACE_INCLUDE_DIRECTORIES)
+get_property(scs_scsindir_INCLUDE_DIR TARGET scs::scsindir PROPERTY INTERFACE_INCLUDE_DIRECTORIES)
+
+set(scs_LIBRARIES scs::scsdir scs::scsindir)
+set(scs_INCLUDE_DIRS "${scs_scsdir_INCLUDE_DIR}" "${scs_scsindir_INCLUDE_DIR}")
+list(REMOVE_DUPLICATES scs_INCLUDE_DIRS)
+
+@INCLUDED_FILE_CONTENT@
