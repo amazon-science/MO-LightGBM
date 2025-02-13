@@ -21,7 +21,7 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
        $sudo yum install lapack-devel blas-devel
        ```
 
-2. from the scs root, build the package, install cmake if needed
+2. From the scs root, build the package, install cmake if needed
    
     ```
     cd LightGBM/external_libs/scs/
@@ -32,7 +32,7 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
     make -j$(nproc)
     cd ../../../../
     ```
-4. from the ecos root, build the package
+4. From the ecos root, build the package
    
     ```
     cd LightGBM/external_libs/ecos.2.0.8/
@@ -91,15 +91,15 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
    sh ec_run_experiment.sh   # will run for the all combinators
    sh epo_search_run_experiment.sh     # will 
 8. Run plotting script
-   1. plot bound and ray in one figure
+   1. Plot bound and ray in one figure
        ```
       python plot_biobjectives.py <dataset_name>_config.yml
        ```
-   2. plot only ray
+   2. Plot only ray
        ```
         python plot_biobjectives_results.py <dataset_name>_config.yml
        ```
-   3. plot only bound
+   3. Plot only bound
        ```
        python plot_biobjectives_ec.py <dataset_name>_config.yml
        ```
