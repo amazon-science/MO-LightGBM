@@ -2,6 +2,9 @@
 
 ## Introduction
 MO-LightGBM is a gradient boosting framework based on decision tree algorithms, used for multi-label learning to rank tasks. It is based on [LightGBM](https://github.com/microsoft/LightGBM).
+
+![MO-LightGBM Architecture](docs/images/mo-lightgbm-architecture.png)
+
 ## Installation
 1. Install blas and lapack, 
     1. In mac:
