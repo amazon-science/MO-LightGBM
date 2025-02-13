@@ -1,7 +1,7 @@
 # Multi-Label Learning to Rank through Multi-objective Optimization with LightGBM
 
 ## Introduction
-MO-LightGBM is a gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for multi-label learning to rank tasks. It is based on [LightGBM](https://github.com/microsoft/LightGBM).
+MO-LightGBM is a gradient boosting framework based on decision tree algorithms, used for multi-label learning to rank tasks. It is based on [LightGBM](https://github.com/microsoft/LightGBM).
 ## Installation
 1. Install blas and lapack, 
     1. In mac:
