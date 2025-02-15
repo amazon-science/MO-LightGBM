@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LightGBM/external_libs/ecos.2.0.8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LightGBM/external_libs/scs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LightGBM/external_libs/socp_interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LightGBM/external_libs/socp_interface/solvers/EiCOS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LightGBM/external_libs/socp_interface/solvers/ecos" vcs="Git" />
   </component>
 </project>

@@ -4,8 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f633758f-bd41-4961-a1ff-cde1c036130d" name="Changes" comment="add MO-LightGBM">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="f633758f-bd41-4961-a1ff-cde1c036130d" name="Changes" comment="rename test folder">
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.31.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/3.13.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/FindOpenMP/ompver_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/boosting/boosting.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/boosting/gbdt.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/boosting/gbdt_model_text.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/boosting/gbdt_prediction.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/boosting/prediction_early_stop.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/c_api.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/bin.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/config.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/config_auto.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/dataset.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/dataset_loader.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/file_io.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/json11.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/metadata.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/parser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/train_share_states.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/io/tree.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/metric/dcg_calculator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/metric/metric.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/network/ifaddrs_patch.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/network/linker_topo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/network/linkers_mpi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/network/linkers_socket.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/network/network.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/objective/objective_function.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/cuda_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/data_parallel_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/feature_parallel_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/gpu_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/linear_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/serial_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/_lightgbm.dir/src/treelearner/voting_parallel_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/application/application.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/boosting/boosting.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/boosting/gbdt.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/boosting/gbdt_model_text.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/boosting/gbdt_prediction.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/boosting/prediction_early_stop.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/bin.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/config.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/config_auto.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/dataset.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/dataset_loader.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/file_io.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/json11.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/metadata.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/parser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/train_share_states.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/io/tree.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/metric/dcg_calculator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/metric/metric.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/network/ifaddrs_patch.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/network/linker_topo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/network/linkers_mpi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/network/linkers_socket.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/network/network.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/objective/objective_function.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/cuda_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/data_parallel_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/feature_parallel_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/gpu_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/linear_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/serial_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/lightgbm.dir/src/treelearner/voting_parallel_tree_learner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/lib_lightgbm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/lightgbm" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/lightgbm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,26 +137,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2sygprUmbT3k8c8KZwDI82Dt0wQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -51,11 +173,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739433414575</updated>
-      <workItem from="1739433415607" duration="3287000" />
+      <workItem from="1739433415607" duration="3941000" />
+      <workItem from="1739608749561" duration="3412000" />
     </task>
+    <task id="LOCAL-00001" summary="add example experiment">
+      <option name="closed" value="true" />
+      <created>1739442876162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739442876162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rename test folder">
+      <option name="closed" value="true" />
+      <created>1739443142604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739443142604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add example experiment" />
+    <MESSAGE value="rename test folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename test folder" />
   </component>
 </project>
