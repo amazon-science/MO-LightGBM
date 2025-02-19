@@ -1,0 +1,116 @@
+dataset:
+  name: istella_v1
+  train_file: "../LTRdatasets/istella/istella-s-letor/sample/train.tsv"
+  valid_file: "../LTRdatasets/istella/istella-s-letor/sample/test.tsv"
+  query_column: "1"
+  main_label: "0"
+  all_labels: ['0', '11', '194', '203', '214']  # Change the labels legends in plotting field
+  bilabels_idx: [[0, -1], [1, -1], [2, -1], [3, -1], [0,3],[1,3],[2,3], [0,2],[1,2], [0,1]]
+  trilabels_idx: [[0, 1, 4], [0,2,4],[0,3,4],[1,2,4], [1,3,4],[2,3,4], [0,1,3],[0,2,3],[1,2,3],[0,1,2]]
+  ignore_columns: ['0', '11', '194', '203', '214']  # all_lables + some extra feature columns that needs to be ignored
+
+lightgbm_parameters:
+  objective_type: lambdarank   # other supported option: ranknet
+  num_iterations: '1000'   # all numbers should be in quotes
+  num_thread: '0'
+  ndcg_eval_at: '5,30'
+  lambdarank_norm: 'false'
+  mo_mgda_min_u: '0.1'
+  mo_ec_mu: '10'
+
+lightgbm_path: "../LightGBM/lightgbm"
+sample_lightgbm_config: "sample_config.conf"
+num_tradeoffs: 5
+
+mg_combinators:
+  preference_based:
+    - linear_scalarization
+    - stochastic_label_aggregation
+    - chebychev_scalarization_decay    
+    - chebychev_scalarization
+    - epo_search_decay    
+    - epo_search
+    - wc_mgda_decay
+    - wc_mgda    
+#    - w_mgda
+
+  reference_preference_based:
+    - linear_scalarization
+    - stochastic_label_aggregation
+    - chebychev_scalarization_decay    
+    - chebychev_scalarization
+    - wc_mgda
+    - wc_mgda_decay    
+    - w_mgda
+  constraint_based:
+    - e_constraint
+    - ec_mgda_decay
+    - ec_mgda
+
+
+plotting:
+  label_legends:
+    "0": "Relevance 1"
+    "11": "Relevance 2"
+    "194": "Relevance 3"    
+    "203": "Relevance 4"
+    "214": "Relevance 5"
+
+  to_track:
+    loss: "Training-loss"     # options: Validation-loss
+    ndcg: "Test-ndcg@5" # options: Training-ndcg@k or Validation-ndcg@k, k can be any number in the ndcg_eval_at
+
+  tracker_titles:
+    loss: "Training Cost"
+    ndcg: "Test NDCG@5"
+
+  snapshots_at: [10, 20, 40, 80, 160, 240, 480, 600, 1000]
+
+  combinator_legends:
+    linear_scalarization: "LS"
+    stochastic_label_aggregation: "SLA"
+    chebychev_scalarization: "CS"
+    chebychev_scalarization_decay: "CS-smooth"    
+    epo_search: "EPO"
+    epo_search_decay: "EPO-smooth"
+    wc_mgda: "WC-MGDA"
+    wc_mgda_decay: "WC-MGDA-decay"    
+    w_mgda: "w-MGDA"
+    wc_mgda_u: "WC-MGDA-U"
+    wc_mgda_g: "WC-MGDA-G"
+    e_constraint: '$\epsilon-$Constraint'
+    ec_mgda: "EC-MGDA"
+    ec_mgda_decay: "EC-MGDA-decay"    
+
+  combinator_markers:
+    linear_scalarization: "s"
+    stochastic_label_aggregation: "P"
+    chebychev_scalarization: "o"
+    chebychev_scalarization_decay: "o"
+    epo_search: "^"
+    epo_search_decay: "^"
+    wc_mgda: "X"
+    wc_mgda_decay: "X"    
+    wc_mgda_u: "X"
+    w_mgda: "h"    
+    wc_mgda_g: "h"
+    e_constraint: '$\clubsuit$'
+    ec_mgda: '$\spadesuit$'
+    ec_mgda_decay: '$\spadesuit$'    
+
+  combinator_marker_sizes:
+    linear_scalarization: 10
+    stochastic_label_aggregation: 20
+    chebychev_scalarization: 5
+    chebychev_scalarization_decay: 20
+    epo_search: 5
+    epo_search_decay: 20
+    wc_mgda: 5
+    wc_mgda_decay: 20    
+    w_mgda: 20    
+    wc_mgda_u: 20
+    wc_mgda_g: 20
+    e_constraint: 30
+    ec_mgda: 5
+    ec_mgda_decay: 25    
+
