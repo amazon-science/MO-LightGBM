@@ -117,13 +117,11 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
 
 dataset=istella
 
-root=/home/ec2-user/SageMaker/MO-LightGBM/
+root=/home/user/MO-LightGBM/
 
 folder=${root}/example/
 
 cd ${folder}
-
-chmod 777 *
 
 python baselines.py ${dataset}_config.yml
 
