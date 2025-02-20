@@ -4,49 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f633758f-bd41-4961-a1ff-cde1c036130d" name="Changes" comment="rename test folder">
-      <change afterPath="$PROJECT_DIR$/example/baselines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/biobjectives_ec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/datasets/lightsvm2tsv.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/hypervolumes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/istella_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/latex_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/plot_biobjectives.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/preprocess_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/sample_config.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/triobjectives_ec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f633758f-bd41-4961-a1ff-cde1c036130d" name="Changes" comment="update main files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/130.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/132.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/133.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/134.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/135.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/136.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/log_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/run_experiment.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baseline_results/target.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/baselines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/biobjectives.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/biobjectives_ec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hypervolumes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/latex_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/multiobjective.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/multiobjective_ec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/objective_metric_correlation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_biobjective_results.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_biobjective_results_ec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_biobjective_trajectories.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_biobjectives.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_bo_iterations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_bo_per_pref.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_mo_iterations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/plot_multiobjective_results.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/preprocess_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sample_config.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/istella_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/istella_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +56,7 @@
       <updated>1739433414575</updated>
       <workItem from="1739433415607" duration="3941000" />
       <workItem from="1739608749561" duration="12279000" />
-      <workItem from="1739726105971" duration="24888000" />
+      <workItem from="1739726105971" duration="36957000" />
     </task>
     <task id="LOCAL-00001" summary="add example experiment">
       <option name="closed" value="true" />
@@ -121,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739612423966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update main files">
+      <option name="closed" value="true" />
+      <created>1739951569111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739951569111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add example experiment" />
     <MESSAGE value="rename test folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename test folder" />
+    <MESSAGE value="update main files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main files" />
   </component>
 </project>

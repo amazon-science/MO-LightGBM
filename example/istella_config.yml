@@ -57,8 +57,8 @@ plotting:
     "214": "Relevance 5"
 
   to_track:
-    loss: "Training-loss"     # options: Validation-loss
-    ndcg: "Test-ndcg@5" # options: Training-ndcg@k or Validation-ndcg@k, k can be any number in the ndcg_eval_at
+    loss: "Training-loss"     # options: Training-loss or Validation-loss
+    ndcg: "Validation-ndcg@5" # options: Training-ndcg@k or Validation-ndcg@k, k can be any number in the ndcg_eval_at
 
   tracker_titles:
     loss: "Training Cost"

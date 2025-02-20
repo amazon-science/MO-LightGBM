@@ -60,7 +60,7 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
 2. The csv/tsv file should have header that names each column
 
 
-### Example for bi-objective experiments
+### Process for bi-objective experiments
 1. Prepare the `<dataset_name>_config.yml`
 2. Generate configure files for baseline experiment
 
@@ -94,22 +94,30 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
        ```
       python plot_biobjectives.py <dataset_name>_config.yml
        ```
-   2. Plot only ray
-       ```
-        python plot_biobjectives_results.py <dataset_name>_config.yml
-       ```
-   3. Plot only bound
-       ```
-       python plot_biobjectives_ec.py <dataset_name>_config.yml
-       ```
 
-### Sample Command for bi-objective experiment 
+[//]: # (   2. Plot only ray)
+
+[//]: # (       ```)
+
+[//]: # (        python plot_biobjectives_results.py <dataset_name>_config.yml)
+
+[//]: # (       ```)
+
+[//]: # (   3. Plot only bound)
+
+[//]: # (       ```)
+
+[//]: # (       python plot_biobjectives_ec.py <dataset_name>_config.yml)
+
+[//]: # (       ```)
+
+### Example for bi-objective experiment 
 
 ```
 
 dataset=istella
 
-root=/home/ec2-user/SageMaker/MO-LightGBM/[plot2_biobjectives.py.old](../MLLTR/test_moro_michi/plot2_biobjectives.py.old)
+root=/home/ec2-user/SageMaker/MO-LightGBM/
 
 folder=${root}/example/
 
@@ -148,47 +156,50 @@ python plot_biobjectives.py ${dataset}_config.yml
 
 ```
 
-### Sample Command for tri-objective experiment 
+[//]: # (### Example for tri-objective experiment )
 
-```
+[//]: # ()
+[//]: # (```)
 
-dataset=istella
+[//]: # (python baselines.py ${dataset}_config.yml)
 
-root=/home/ec2-user/SageMaker/MO-LightGBM/
+[//]: # ()
+[//]: # (cd results_${dataset}/lambdarank/baseline_results)
 
-folder=${root}/example/
+[//]: # ()
+[//]: # (sh run_experiment.sh)
 
-cd ${folder}
+[//]: # ()
+[//]: # (cd ${folder})
 
-chmod 777 *
+[//]: # ()
+[//]: # ()
+[//]: # (python triobjectives.py ${dataset}_config.yml)
 
-python baselines.py ${dataset}_config.yml
+[//]: # ()
+[//]: # (cd results_${dataset}/lambdarank/triobjective_results)
 
-cd results_${dataset}/lambdarank/baseline_results
+[//]: # ()
+[//]: # (sh run_experiment.sh )
 
-sh run_experiment.sh
+[//]: # ()
+[//]: # (cd ${folder})
 
-cd ${folder}
+[//]: # ()
+[//]: # ()
+[//]: # (python triobjectives_ec.py ${dataset}_config.yml)
 
+[//]: # ()
+[//]: # (cd results_${dataset}/lambdarank/triobjective_results)
 
-python triobjectives.py ${dataset}_config.yml
+[//]: # ()
+[//]: # (sh ec_run_experiment.sh )
 
-cd results_${dataset}/lambdarank/triobjective_results
+[//]: # ()
+[//]: # (cd ${folder})
 
-sh run_experiment.sh 
-
-cd ${folder}
-
-
-python triobjectives_ec.py ${dataset}_config.yml
-
-cd results_${dataset}/lambdarank/triobjective_results
-
-sh ec_run_experiment.sh 
-
-cd ${folder}
-
-```
+[//]: # ()
+[//]: # (```)
 
 ## Citation 
 If you use this work, please consider citing the papers:
@@ -198,9 +209,8 @@ Optimization](https://dl.acm.org/doi/pdf/10.1145/3580305.3599870)
 
 ```
 @article{chaoshengmo-lightgbm2025,
-  title={MO-LightGBM: A Package for Multi-Label Learning to Rank in LightGBM},
+  title={MO-LightGBM: A Library for Multi-objective Learning to Rank with LightGBM},
   author={Dong, Chaosheng and Momma, Michinari},
-  journal={arXiv preprint arXiv:2412.10418},
   year={2025}
 }
 
