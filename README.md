@@ -5,6 +5,11 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
 
 ![MO-LightGBM Architecture](docs/images/mo-lightgbm-architecture.png)
 
+## Requirements
+  - Python 3.8 or higher
+  - matplotlib
+  - seaborn
+
 ## Installation
 1. Install blas and lapack, 
     1. In mac:
@@ -54,6 +59,7 @@ MO-LightGBM is a gradient boosting framework based on decision tree algorithms, 
    make -j$(nproc)
    cd ../../
    ```
+It is fully tested with Red Hat systems.
 ## Usage
 ### Assumptions about Dataset
 1. The dataset should be in csv or tsv format, not in the libsvm format. 
@@ -200,7 +206,7 @@ python plot_biobjectives.py ${dataset}_config.yml
 [//]: # (```)
 
 ## Citation 
-If you use this work, please consider citing the papers:
+If you use this work, or otherwise found our work valuable, please consider citing the papers:
 
 [Multi-Label Learning to Rank through Multi-Objective
 Optimization](https://dl.acm.org/doi/pdf/10.1145/3580305.3599870)

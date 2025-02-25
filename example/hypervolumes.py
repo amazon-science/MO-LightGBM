@@ -23,7 +23,7 @@ var_types = {"loss": "Training-loss", "ndcg": "Training-ndcg@5"}
 variables = list(var_types.values())
 
 all_labels = ["132", "133", "134", "136", "target"]
-mg_combinators = ["linear_scalarization", "chebychev_scalarization", "epo_search"]
+mg_combinators = ["linear_scalarization", "chebyshev_scalarization", "epo_search"]
 
 # Get baseline costs
 baseline_costs = dict()
@@ -53,7 +53,7 @@ cs_dfs = []
 comb_legends = {"epo_search": "EPO-Search",
                "linear_scalarization": "LS",
                "wc_mgda": "WC-MGDA",
-               "chebychev_scalarization": "CS",
+               "chebyshev_scalarization": "CS",
                "stochastic_label_aggregation": "SLA"}
 for i in range(601):
     for comb in mg_combinators:

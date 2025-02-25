@@ -26,8 +26,8 @@ mg_combinators:
   preference_based:
     - linear_scalarization
     - stochastic_label_aggregation
-    - chebychev_scalarization_decay    
-    - chebychev_scalarization
+    - chebyshev_scalarization_decay    
+    - chebyshev_scalarization
     - epo_search_decay    
     - epo_search
     - wc_mgda_decay
@@ -37,8 +37,8 @@ mg_combinators:
   reference_preference_based:
     - linear_scalarization
     - stochastic_label_aggregation
-    - chebychev_scalarization_decay    
-    - chebychev_scalarization
+    - chebyshev_scalarization_decay    
+    - chebyshev_scalarization
     - wc_mgda
     - wc_mgda_decay    
     - w_mgda
@@ -69,8 +69,8 @@ plotting:
   combinator_legends:
     linear_scalarization: "LS"
     stochastic_label_aggregation: "SLA"
-    chebychev_scalarization: "CS"
-    chebychev_scalarization_decay: "CS-smooth"    
+    chebyshev_scalarization: "CS"
+    chebyshev_scalarization_decay: "CS-smooth"    
     epo_search: "EPO"
     epo_search_decay: "EPO-smooth"
     wc_mgda: "WC-MGDA"
@@ -85,8 +85,8 @@ plotting:
   combinator_markers:
     linear_scalarization: "s"
     stochastic_label_aggregation: "P"
-    chebychev_scalarization: "o"
-    chebychev_scalarization_decay: "o"
+    chebyshev_scalarization: "o"
+    chebyshev_scalarization_decay: "o"
     epo_search: "^"
     epo_search_decay: "^"
     wc_mgda: "X"
@@ -101,8 +101,8 @@ plotting:
   combinator_marker_sizes:
     linear_scalarization: 10
     stochastic_label_aggregation: 20
-    chebychev_scalarization: 5
-    chebychev_scalarization_decay: 20
+    chebyshev_scalarization: 5
+    chebyshev_scalarization_decay: 20
     epo_search: 5
     epo_search_decay: 20
     wc_mgda: 5

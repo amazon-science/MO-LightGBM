@@ -115,14 +115,14 @@ class LinearScalarization : public MGCombinator {
   }
 };
 
-class ChebychevScalarization : public MGCombinator {
+class ChebyshevScalarization : public MGCombinator {
  /*
  The combination coefficients are zero for all gradients except for the one that has maximum relative cost.
  The num_mo_ relative costs are preference[i] * cost[i] for i=0 to i < num_mo_
  */
  public:
-  explicit ChebychevScalarization(const Config& config) {
-    if(config.mg_combination == "chebychev_scalarization_decay"){
+  explicit ChebyshevScalarization(const Config& config) {
+    if(config.mg_combination == "chebyshev_scalarization_decay"){
         cs_type = "alpha_decay" ;
     }
     else{
@@ -130,7 +130,7 @@ class ChebychevScalarization : public MGCombinator {
     }
   }
 
-  ~ChebychevScalarization() {}
+  ~ChebyshevScalarization() {}
 
   void Init(const Metadata& metadata, data_size_t num_data) override {
     MGCombinator::Init(metadata, num_data);
@@ -2167,8 +2167,8 @@ MGCombinator* MGCombinator::CreateMGCombinator(const std::string& type, const Co
   if (type == "linear_scalarization") {
     return new LinearScalarization(config);
   }
-  if (type == "chebychev_scalarization" || type == "chebychev_scalarization_decay") {
-    return new ChebychevScalarization(config);
+  if (type == "chebyshev_scalarization" || type == "chebyshev_scalarization_decay") {
+    return new ChebyshevScalarization(config);
   }
   if (type == "epo_search" || type == "epo_search_decay") {
     return new EPOSearch(config);

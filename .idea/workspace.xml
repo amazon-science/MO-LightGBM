@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f633758f-bd41-4961-a1ff-cde1c036130d" name="Changes" comment="update main files">
+    <list default="true" id="f633758f-bd41-4961-a1ff-cde1c036130d" name="Changes" comment="update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/src/objective/mg_combinator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/src/objective/mg_combinator.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightGBM/src/objective/mg_combinator_old.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/LightGBM/src/objective/mg_combinator_old.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/hypervolumes.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/hypervolumes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/istella_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/example/istella_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
       <updated>1739433414575</updated>
       <workItem from="1739433415607" duration="3941000" />
       <workItem from="1739608749561" duration="12279000" />
-      <workItem from="1739726105971" duration="36957000" />
+      <workItem from="1739726105971" duration="48620000" />
     </task>
     <task id="LOCAL-00001" summary="add example experiment">
       <option name="closed" value="true" />
@@ -90,7 +93,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739951569111</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1740039343205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740039343205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1740040480691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740040480691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1740086583751</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740086583751</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +138,7 @@
     <MESSAGE value="add example experiment" />
     <MESSAGE value="rename test folder" />
     <MESSAGE value="update main files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main files" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
 </project>
