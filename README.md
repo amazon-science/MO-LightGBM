@@ -1,4 +1,4 @@
-# Multi-Label Learning to Rank through Multi-objective Optimization with LightGBM
+# Multi-objective Learning to Rank through Multi-objective Optimization with LightGBM
 
 ## Introduction
 MO-LightGBM is a gradient boosting framework based on decision tree algorithms, used for multi-label learning to rank tasks. It is based on [LightGBM](https://github.com/microsoft/LightGBM).
