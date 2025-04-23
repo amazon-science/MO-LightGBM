@@ -208,13 +208,15 @@ python plot_biobjectives.py ${dataset}_config.yml
 ## Citation 
 If you use this work, or otherwise found our work valuable, please consider citing the papers:
 
-[Multi-Label Learning to Rank through Multi-Objective
-Optimization](https://dl.acm.org/doi/pdf/10.1145/3580305.3599870)
+[MO-LightGBM: A Library for Multi-objective Learning to Rank with LightGBM](https://dl.acm.org/doi/pdf/10.1145/3726302.3731937)
+
+[Multi-Label Learning to Rank through Multi-Objective Optimization](https://dl.acm.org/doi/pdf/10.1145/3580305.3599870)
 
 ```
-@article{chaoshengmo-lightgbm2025,
+@inproceedings{chaosheng2025mo-lightgbm,
   title={MO-LightGBM: A Library for Multi-objective Learning to Rank with LightGBM},
   author={Dong, Chaosheng and Momma, Michinari},
+  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year={2025}
 }
 
